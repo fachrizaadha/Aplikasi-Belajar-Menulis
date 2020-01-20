@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundbuah"
+    tools:context=".Buah">
+
+    <ImageView
+        android:id="@+id/pir"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/pear"
+        tools:ignore="contentDescription" />
+
+    <ImageView
+        android:id="@+id/melon"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/melon"
+        tools:ignore="contentDescription" />
+
+    <ImageView
+        android:id="@+id/mangga"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/manggo"
+        tools:ignore="contentDescription" />
+
+    <ImageView
+        android:id="@+id/anggur"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/anggur"
+        tools:ignore="contentDescription"/>
+
+    <ImageView
+        android:id="@+id/ceri"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="490dp"
+        android:layout_marginStart="490dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ceri"
+        tools:ignore="contentDescription" />
+</android.widget.RelativeLayout>

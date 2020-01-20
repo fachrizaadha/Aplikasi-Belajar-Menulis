@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.root.disgraphia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Gambar"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Credit"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Pemilihan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kategori_Penulisan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarB"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarC"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarD"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarE"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarF"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarG"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarH"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarI"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarJ"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarK"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarL"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarM"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarN"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarO"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarP"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarQ"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarR"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarS"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarT"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarU"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarV"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarW"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarX"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarY"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GambarZ"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Angka"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_0"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_7"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_8"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nomor_9"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Bear"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Fish"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Cow"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Duck"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Cat"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Mangga"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Anggur"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Ceri"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Melon"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Pir"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Buah"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Binatang"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>

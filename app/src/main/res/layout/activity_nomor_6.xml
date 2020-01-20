@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/taman"
+        tools:context=".nomor_6">
+
+        <com.radefffactory.paint.CanvasView
+            android:id="@+id/canvas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/no6" />
+
+        <Button
+            android:id="@+id/b_clear"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="33dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_toLeftOf="@+id/b_next"
+            android:layout_toStartOf="@+id/b_next"
+            android:background="@drawable/b_reload"
+            android:onClick="clearCanvas" />
+
+        <Button
+            android:id="@+id/b_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/b_clear"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/b_next" />
+    </android.widget.RelativeLayout>
